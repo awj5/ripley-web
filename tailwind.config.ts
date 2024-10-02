@@ -11,8 +11,16 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        ripleyred: "var(--ripley-red)",
+        ripleyyellow: "var(--ripley-yellow)",
+      },
+      fontFamily: {
+        sans: ["var(--font-inter)"],
       },
     },
+  },
+  future: {
+    hoverOnlyWhenSupported: true,
   },
   plugins: [],
 };
