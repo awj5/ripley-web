@@ -4,7 +4,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Ripley - Local Favorites Curated by Elite Hotels",
-  description: "Launching on iOS and Android in late 2024.",
+  description: "Coming to iOS and Android soon.",
 };
 
 const inter = Inter({

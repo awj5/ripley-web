@@ -13,6 +13,8 @@ const config: Config = {
         foreground: "var(--foreground)",
         ripleyred: "var(--ripley-red)",
         ripleyyellow: "var(--ripley-yellow)",
+        ripleygrey: "var(--ripley-grey)",
+        ripleyblue: "var(--ripley-blue)",
       },
       fontFamily: {
         sans: ["var(--font-inter)"],

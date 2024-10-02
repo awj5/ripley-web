@@ -3,15 +3,17 @@
 @tailwind utilities;
 
 :root {
-  --background: #eeeeee;
+  --background: #ffffff;
   --foreground: #000000;
   --ripley-red: #dc4441;
   --ripley-yellow: #ffc445;
+  --ripley-grey: #a0a0a0;
+  --ripley-blue: #33679a;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #222222;
+    --background: #000000;
     --foreground: #ffffff;
   }
 }
@@ -23,5 +25,5 @@ body {
 
 body {
   color: var(--foreground);
-  background: var(--ripley-red);
+  background: var(--background);
 }
